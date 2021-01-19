@@ -61,9 +61,9 @@ def visualize_time_series_vars(df, savefigure=False, file_name=None):
     # plot the varaibles
     df.plot(subplots=True, 
             layout=(3,3), 
-            sharex=False, 
+            sharex=True, 
             sharey=False,  
-            fontsize=7, 
+            fontsize=8, 
             legend=True, 
             figsize=(16,10),
             linewidth=1)
